@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizzaku Restaurant</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Pizzaku</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="navbar-extra">
+          <a href="#" id="search"><i data-feather="search"></i></a>
+          <a href="#" id="bag"><i data-feather="shopping-bag"></i></a>
+          <a href="#" id="menu-toggle"><i data-feather="menu"></i></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h2>Welcome to Pizzaku</h2>
+        <p>We offer modern pizzas at affordable prices.</p>
+      </section>
+
+      <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <p>Please choose the menu you want to order.</p>
+        <div class="row">
+          <article class="menu-item">
+            <img src="1 corp.jpg" class="menu-item-img" alt="Meat Lovers" />
+            <h3 class="menu-title">- Meat Lovers -</h3>
+            <p class="menu-price">70k</p>
+          </article>
+          <article class="menu-item">
+            <img src="2.jpg" class="menu-item-img" alt="Mouse Cheese" />
+            <h3 class="menu-title">- Mouse Cheese -</h3>
+            <p class="menu-price">95k</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Looking for more information about us?</p>
+      </section>
+
+      <aside>
+        <h2>Promotions</h2>
+        <img src="promo.jpg" alt="Promotion" />
+      </aside>
+
+      <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Reach us at: 08123568943</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Pizzaku Restaurant. All rights reserved.</p>
+    </footer>
+
+    <!-- Feather Icons Script -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
